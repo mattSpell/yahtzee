@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+#container {
+  width: 90%;
+  margin: auto;
+}
+.avatar {
+  width: 50px;
+  height: 40px;
+}
+.horizontal {
+  background-color: #B2ACA9 !important;
+}
+.vertical {
+  background-color: #D9D7CE !important;
+}
+.arrow {
+  height: 50px;
+  width: 50px;
+}
+#movement {
+  display: inline-block;
+  margin-top: 20px;
+}
+.dice {
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+}
+#roll {
+  margin-top: 2em;
+}
+.frozen {
+  opacity: .3;
+}
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  /* Set your content font stack here: */
+  font-family: 'Open Sans', sans-serif;
+}
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.button-success {
+  background: #52e365;
+}
+.button-error {
+  background: #d2734e;
+}
+.button-warning {
+  background: #df7514;
+}
+.button-secondary {
+  background: rgba(108, 67, 223, 0.55);
+}
+.button-xsmall {
+  font-size: 50%;
+}
+.button-small {
+  font-size: 85%;
+}
+.button-large {
+  font-size: 110%;
+}
+.button-xlarge {
+  font-size: 150%;
+}
